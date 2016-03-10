@@ -1,0 +1,43 @@
+* {
+ border: 1px solid red !important;
+}
+
+.squares {
+  height: 100px;
+  width:  100px;
+}
+
+.container {
+  height: 500px;
+  width: 500px;
+  background-color: gray;
+}
+
+#square1 {
+  background-color: red;
+  height: 200px;
+  float: left;
+  /*wraps text*/
+ /* display: inline-block;*/
+ /* aligns at the bottom of elements*/
+}
+
+#square2 {
+  background-color: blue;
+  width: 200px;
+ /* saves space to the right of the element*/
+  clear: right;
+ /* display: inline-block;*/
+/*  float: left;
+*/  /*aligns at the top of the element*/
+ /* clear: left;*/
+}
+
+#square3 {
+  background-color: green;
+}
+
+#square4 {
+  background-color: black;
+}
+
